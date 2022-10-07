@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 1</title>
+<head>
+<script>
+var verdadero, char
+var valores = [verdadero, false, 2, "hola", "mundo", 3, char]
+var valoresStr = [];
+for (let i=0; i < valores.lenght; i++){
+if (typeof valores[i]==="string"){
+valoresStr.push (valores [i])
+}
+}
+console.log("2. Imprimir los elementos de menor a mayor segun su cantidad de
+letras: " + valoresStr.sort(function(a, b){return a.lenght - b.lenght}))
+</script>
+<body>
+</body>
+</html>
