@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 9</title>
+<head>
+<script type="text/javascript">
+var notas;
+var promedio;
+var suma=0;
+var nnotas = parseInt(prompt("ingrese la cantidad de notas"))
+for (i=0; i< nnotas; i++){
+var notas = parseInt(prompt("escriba la nota " + i));
+suma = suma + notas;
+}
+promedio = suma / nnotas;
+alert("el promedio es " + promedio);
+</script>
+<body>
+</body>
+</html>
