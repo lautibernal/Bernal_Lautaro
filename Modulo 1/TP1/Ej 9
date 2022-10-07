@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Ejercicio 9</title>
+</head>
+<body>
+<script>
+var array = ["A", "E", "I", "O", "U",];
+for (i=0; i < array.length; i++) {
+document.write(array[i] + "<br/>");
+}
+</script>
+</body>
