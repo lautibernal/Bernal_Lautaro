@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 7</title>
+<head>
+<script type="text/javascript">
+pedir_palabra=prompt("Introduce el texto, para luego mostrarlo al reves");
+palabra=pedir_palabra.split("");
+palabra_reves=palabra.reverse ();
+palabra_reves=palabra_reves.join("");
+alert(palabra_reves);
+</script>
+<body>
+</body>
+</html>
