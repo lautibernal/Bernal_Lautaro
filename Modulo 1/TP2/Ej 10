@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 10</title>
+<head>
+<script>
+var mmes = prompt("Ingrese el mes")
+function cantidadDias(mmes) {
+return new Date(mes).getDate();
+mes = dias
+}
+alert(cantidadDias(dias));
+</script>
+<body>
+</body>
+</html>
