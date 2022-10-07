@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Dentro del title encontramos el titulo de la pagina web, lo que el usuario ve
+en la pestaña-->
+<title>Ejercicio 1 </title>
+</head>
+<body>
+<!--El script se ejecuta en la computadora del usuario cuando se carga el
+documento. -->
+<script>
+document.writeln("Hola Mundo!");
+document.write("Soy el primer script");
+</script>
+</body>
+</html>
