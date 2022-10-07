@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 8</title>
+<head>
+<script type="text/javascript">
+function generate() {
+let num = Math.random()*100;
+document.write(num);
+}
+generate()
+</script>
+<body>
+</body>
+</html>
