@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>TP2-EJERCICIO 6</title>
+<head>
+<script type="text/javascript">
+var vocales = ["a", "e", "i", "o", "u"];
+var texto = prompt("Introduce un texto");
+var textomin = texto.toLowerCase();
+var posicion = 0;
+var parar = false;
+for(var i = 0; i < textomin.lenght; i++) {
+for (var j = 0; j < vocales.lenght; j++) {
+if (vocales[j] == textomin.charAt(i)) {
+posicion = i+1;
+parar = true;
+break;
+}
+}
+if (parar) {
+break;
+}
+}
+document.write("la primera vocal estan en la posicion " + posicion);
+</script>
+<body>
+</body>
+</html>
