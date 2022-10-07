@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Ejercicio 10</title>
+</head>
+<body>
+<script>
+var meses = ["enero", "febrero", "marzo", "abril",
+"mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+var mes = window.prompt("ingrese el numero del mes:", "");
+document.writeln(meses[(parseInt(mes) - 1)]);
+</script>
+</body>
+</html>
